@@ -15,6 +15,7 @@ public class TestB {
 	public void setUp() {
 		System.out.println("*******************");
 		System.out.println("launching firefox browser");
+		System.setProperty("webdriver.gecko.driver","C:\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 	}
