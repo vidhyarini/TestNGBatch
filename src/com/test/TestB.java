@@ -1,7 +1,9 @@
 package com.test;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -9,14 +11,18 @@ import org.testng.annotations.Test;
 
 public class TestB {
 	
-	public WebDriver driver;
+	public InternetExplorerDriver driver; //ChromeDriver driver;//WebDriver driver;
 	
 	@BeforeClass
 	public void setUp() {
 		System.out.println("*******************");
 		System.out.println("launching firefox browser");
-		System.setProperty("webdriver.gecko.driver","C:\\geckodriver.exe");
-		driver = new FirefoxDriver();
+	//	System.setProperty("webdriver.gecko.driver","C:\\geckodriver.exe");
+	//	driver = new FirefoxDriver();
+//		System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
+//		driver = new ChromeDriver();
+		System.setProperty("webdriver.ie.driver","C:\\IEDriverServer.exe");
+		driver = new InternetExplorerDriver();
 		driver.manage().window().maximize();
 	}
 	
