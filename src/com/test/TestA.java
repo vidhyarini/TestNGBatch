@@ -11,20 +11,20 @@ import org.testng.annotations.Test;
 
 public class TestA {
 	
-//	WebDriver driver;
+	WebDriver driver;
 //	ChromeDriver driver;
-	InternetExplorerDriver driver;
+//	InternetExplorerDriver driver;
 	
 	@BeforeClass
 	public void setUp() {
 		System.out.println("*******************");
 		System.out.println("launching firefox browser");
-	//	System.setProperty("webdriver.gecko.driver","C:\\geckodriver.exe");
-	//	driver = new FirefoxDriver();
+		System.setProperty("webdriver.gecko.driver","C:\\geckodriver.exe");
+		driver = new FirefoxDriver();
 //		System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
 //		driver = new ChromeDriver();
-		System.setProperty("webdriver.ie.driver","C:\\IEDriverServer.exe");
-		driver = new InternetExplorerDriver();
+		//System.setProperty("webdriver.ie.driver","C:\\IEDriverServer.exe");
+		//driver = new InternetExplorerDriver();
 		driver.manage().window().maximize();
 	}
 	

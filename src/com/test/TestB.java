@@ -16,7 +16,7 @@ public class TestB {
 	@BeforeClass
 	public void setUp() {
 		System.out.println("*******************");
-		System.out.println("launching firefox browser");
+		System.out.println("launching IE browser");
 	//	System.setProperty("webdriver.gecko.driver","C:\\geckodriver.exe");
 	//	driver = new FirefoxDriver();
 //		System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");

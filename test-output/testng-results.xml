@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Main Test Suite" duration-ms="9304" started-at="2017-03-22T15:13:38Z" finished-at="2017-03-22T15:13:47Z">
+    <groups>
+    </groups>
+    <test name="TestNG Test Group" duration-ms="9304" started-at="2017-03-22T15:13:38Z" finished-at="2017-03-22T15:13:47Z">
+      <class name="com.test.TestB">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.TestB@270421f5]" name="setUp" is-config="true" duration-ms="2046" started-at="2017-03-22T16:13:44Z" finished-at="2017-03-22T16:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPageTitleSampleB()[pri:0, instance:com.test.TestB@270421f5]" name="testPageTitleSampleB" duration-ms="574" started-at="2017-03-22T16:13:46Z" finished-at="2017-03-22T16:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageTitleSampleB -->
+        <test-method status="PASS" signature="testSampleOne()[pri:0, instance:com.test.TestB@270421f5]" name="testSampleOne" duration-ms="0" started-at="2017-03-22T16:13:46Z" finished-at="2017-03-22T16:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSampleOne -->
+        <test-method status="PASS" signature="testSampleThree()[pri:0, instance:com.test.TestB@270421f5]" name="testSampleThree" duration-ms="0" started-at="2017-03-22T16:13:46Z" finished-at="2017-03-22T16:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSampleThree -->
+        <test-method status="PASS" signature="testSampleTwo()[pri:0, instance:com.test.TestB@270421f5]" name="testSampleTwo" duration-ms="0" started-at="2017-03-22T16:13:46Z" finished-at="2017-03-22T16:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSampleTwo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.TestB@270421f5]" name="tearDown" is-config="true" duration-ms="676" started-at="2017-03-22T16:13:46Z" finished-at="2017-03-22T16:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.TestB -->
+      <class name="com.test.TestA">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.TestA@b065c63]" name="setUp" is-config="true" duration-ms="3872" started-at="2017-03-22T16:13:38Z" finished-at="2017-03-22T16:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPageTitleSampleA()[pri:0, instance:com.test.TestA@b065c63]" name="testPageTitleSampleA" duration-ms="840" started-at="2017-03-22T16:13:41Z" finished-at="2017-03-22T16:13:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageTitleSampleA -->
+        <test-method status="PASS" signature="testSampleThree()[pri:0, instance:com.test.TestA@b065c63]" name="testSampleThree" duration-ms="0" started-at="2017-03-22T16:13:42Z" finished-at="2017-03-22T16:13:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSampleThree -->
+        <test-method status="PASS" signature="testSampleTwo()[pri:0, instance:com.test.TestA@b065c63]" name="testSampleTwo" duration-ms="0" started-at="2017-03-22T16:13:42Z" finished-at="2017-03-22T16:13:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSampleTwo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.TestA@b065c63]" name="tearDown" is-config="true" duration-ms="1285" started-at="2017-03-22T16:13:42Z" finished-at="2017-03-22T16:13:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.TestA -->
+    </test> <!-- TestNG Test Group -->
+  </suite> <!-- Main Test Suite -->
+</testng-results>
