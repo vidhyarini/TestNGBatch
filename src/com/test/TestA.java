@@ -42,12 +42,12 @@ public class TestA {
 	public void testSampleTwo() throws InterruptedException {
 		driver.findElement(By.id("gs_htif0")).sendKeys("Test case in firefox");
 		Thread.sleep(3000);
-		System.out.println("Im in test sample two - Open Browser");
+		System.out.println("Im in test sample two");
 	}
 	
 	@Test
 	public void testSampleThree() {
-		System.out.println("Im in test sample three - Open Browser");
+		System.out.println("Im in test sample three");
 	}
 
 	@AfterClass
