@@ -1,5 +1,7 @@
 package com.test;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.By.ById;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -37,13 +39,15 @@ public class TestA {
 	}
 	
 	@Test
-	public void testSampleTwo() {
-		System.out.println("Im in test sample two");
+	public void testSampleTwo() throws InterruptedException {
+		driver.findElement(By.id("gs_htif0")).sendKeys("Test case in firefox");
+		Thread.sleep(3000);
+		System.out.println("Im in test sample two - Open Browser");
 	}
 	
 	@Test
 	public void testSampleThree() {
-		System.out.println("Im in test sample three");
+		System.out.println("Im in test sample three - Open Browser");
 	}
 
 	@AfterClass
