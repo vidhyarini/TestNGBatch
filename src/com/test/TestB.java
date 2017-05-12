@@ -1,5 +1,6 @@
 package com.test;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -35,7 +36,9 @@ public class TestB {
 	}
 	
 	@Test
-	public void testSampleOne() {
+	public void testSampleOne() throws InterruptedException {
+		driver.findElement(By.id("lst-ib")).sendKeys("Test case in IE");
+		Thread.sleep(3000);
 		System.out.println("Im in test sample one");
 	}
 	
